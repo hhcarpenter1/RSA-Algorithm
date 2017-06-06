@@ -1,0 +1,27 @@
+README:
+
+How to use program:
+
+Enciphering:
+
+1) Click on green arrow, then click OK to run the program.
+
+2) Type in a message on your keyboard to encrypt a message
+
+3) You will receive output for the encrypted message and the decrypted message. Everything will be in caps with no punctuation
+
+Design:
+
+-I divided my program into four separate classes with four unique responsibilities: KeyGeneration, Decryption, Encryption, and User interface. 
+
+-The KeyGeneration class contains the formulas for n (the modulus), e, eulerTotient, max, and d
+
+-The Encryption and Decryption classes both use Hashtables to efficiently assign chars to ascII int values and vice versa.
+-Before the Hashtable assigning, the encrypted values were broken into pairs of two letters. Then, I encoded the characters into ascII values including the spaces.
+
+-The encryption and decryption methods use a few toString methods, so the output can be comprehendable.
+
+-To improve on the design on this project from the previous one, I tried to encapsulate my classes, methods, and variables by avoiding 'static' or class.method(). 
+
+
+
